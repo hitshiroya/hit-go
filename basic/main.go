@@ -48,28 +48,80 @@ func main() {
 	// 	fmt.Println("Not eligible")
 	// }
 
-	var names [4]string
-	names[0] = "hit"
-	names[1] = "shiroya"
+	// var names [4]string
+	// names[0] = "hit"
+	// names[1] = "shiroya"
 
-	fmt.Println(names[1])
+	// fmt.Println(names[1])
 
-	balance := [5]int{400, 300, 200, 20, 2}
+	// balance := [5]int{400, 300, 200, 20, 2}
 
-	var totalBalance int
+	// var totalBalance int
 
-	for i := range len(balance) {
-		totalBalance += balance[i]
-	}
+	// for i := range len(balance) {
+	// 	totalBalance += balance[i]
+	// }
 
-	fmt.Println(totalBalance)
+	// fmt.Println(totalBalance)
 
-	fmt.Println(balance)
+	// fmt.Println(balance)
 
-	matrixMal := [3][3]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}
+	// slices dynamic size change on run time not fix
 
-	for i,j:=range 3,3{
-		
-	}
-	fmt.Println(matrixMal)
+	// using simple
+
+	// var arrSlice []int
+
+	// arrSlice = append(arrSlice, 2)
+	// arrSlice = append(arrSlice, 4)
+	// fmt.Print(cap(arrSlice))
+
+	// var value = make([]int, 2, 10)
+	// value = append(value, 4)
+	// value = append(value, 2)
+	// value = append(value, 34)
+
+	// fmt.Println(value)
+
+	// fmt.Println(cap(value))
+
+	// m := make(map[string]int)
+
+	// m["hit"] = 333
+	// m["neel"] = 222
+
+	// fmt.Println(m["hit"])
+
+	// two syntax to create map
+
+	// make syntax
+
+	// m := make(map[string]int)
+
+	// m["hit"] = 1
+	// m["x"] = 2
+
+	// v, ok := m["p"]
+
+	// if ok {
+	// 	fmt.Print("hello")
+	// 	fmt.Print(v)
+	// } else {
+	// 	fmt.Print("not done")
+	// }
+
+	// m := map[string]int{
+	// 	"hit": 1,
+	// 	"x":   333,
+	// 	"y":   444,
+	// }
+
+	// v, ok := m["t"]
+
+	// if ok {
+	// 	fmt.Println(v)
+	// } else {
+	// 	fmt.Println("Wrong request")
+	// }
+
 }
