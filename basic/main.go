@@ -32,6 +32,15 @@ import "fmt"
 // 	return total / len(nums)
 // }
 
+// func increment() func() int {
+// 	count := 0
+
+// 	return func() int {
+// 		count += 1
+// 		return count
+// 	}
+// }
+
 func main() {
 
 	// variable declaration
@@ -161,4 +170,8 @@ func main() {
 
 	// fmt.Println(r1)
 
+	// ans := increment()
+
+	// fmt.Println(ans())
+	// fmt.Println(ans())
 }
