@@ -4,12 +4,33 @@ import "fmt"
 
 // declare const variable which later can not be modify
 
-const val = 333
+// const val = 333
 
-var num int32 = 4444
+// var num int32 = 4444
 
 // this syntax does not work outside main
 // credit :=  444
+
+// func add(a int, b int) int {
+// 	return a + b
+// }
+
+// func mul(a, b, c int) int {
+// 	return a * b * c
+// }
+// func information() (string, string, string) {
+// 	return "Hit", "Shiroya", "Than"
+// }
+
+// func avg(nums ...int) int {
+// 	total := 0
+
+// 	for _, num := range nums {
+// 		total = total + num
+// 	}
+
+// 	return total / len(nums)
+// }
 
 func main() {
 
@@ -123,5 +144,21 @@ func main() {
 	// } else {
 	// 	fmt.Println("Wrong request")
 	// }
+
+	// result := add(3, 4)
+
+	// resultMul := mul(4, 5, 6)
+	// fmt.Println(result)
+	// fmt.Println(resultMul)
+
+	// firstName, lastName, _ := information()
+
+	// fmt.Println(firstName, lastName)
+
+	// nums := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+	// r1 := avg(nums...)
+
+	// fmt.Println(r1)
 
 }
